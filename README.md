@@ -7,3 +7,4 @@ examples:
 tour guide in a museum, 
 group guide in a theme park, 
 treasure map, 
+Navigate a city, 
