@@ -1,5 +1,5 @@
 '''
-immune systemn simulator
+immune system simulator
 simulates how the immune system interacts with foreign bodys
 created with Tkinter
 author: William escobar parra, Tim Goldsmith, Mathew Glaysher and Freddie Rugdale
