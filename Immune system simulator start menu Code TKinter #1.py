@@ -1,3 +1,6 @@
+"""
+Immune system simulator start menu
+"""
 from tkinter import *
 
 startWin=Tk()           #start menu window
