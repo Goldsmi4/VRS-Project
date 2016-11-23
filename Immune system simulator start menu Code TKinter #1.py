@@ -13,31 +13,20 @@ def newWin():
     startWin.withdraw()         #hides start menu window
 
 def credit():
-    root = Tk()
-    text = Text(root)
-    text.insert(INSERT, 'This game was created by: ')
-    text.insert(INSERT, 'William Escobar Parra')
-    
-    text.pack()
-    
-    
-    
-    
-    root.mainloop()
-
-
+    f=open('Credits.txt')
+    t.insert(1.0, f.read)
 
 def closeWin():
     startWin.quit()
     startWin.destroy()
 
-firstB = Button(text='Start Game', command=newWin)
+firstB = Button(text='Start Game', command=newWin)      #opens game
 firstB.pack()
 
-secondB = Button(text='Credits', command=credit)
+secondB = Button(text='Credits', command=credit)        #opens credits.txt file
 secondB.pack()
 
-lastB = Button(text='Exit Game', command=closeWin)
+lastB = Button(text='Exit Game', command=closeWin)      #Closes menu window
 lastB.pack()
 
 startWin.mainloop()
