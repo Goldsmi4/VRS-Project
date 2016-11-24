@@ -13,13 +13,8 @@ def newWin():
     startWin.withdraw()         #hides start menu window
 
 def credit():
-    root = Tk()
-    text = Text(root)
-    text.insert(INSERT, 'This game was created by: ')
-    text.insert(INSERT, 'William Escobar Parra')
-    
-    text.pack()
-    
+    f=open('Credits.txt')
+    f.insert(1.0, f.read)       #currently broken (doesnt display file)
     
     
     
